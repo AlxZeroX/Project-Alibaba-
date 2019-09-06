@@ -1,0 +1,113 @@
+navegacion {
+	margin-top:3px;
+	position: relative;
+}
+
+navegacion ul {
+	list-style:none;
+    padding-top: 12px;
+    height: 24px;
+    z-index: 10;
+    display: block;
+    line-height: 0;
+    clear: both;
+    position: relative;
+    background:white;
+}
+
+navegacion > ul > li {
+	float:left;
+}
+
+navegacion span ul li a{
+}
+
+navegacion ul li a {
+	text-decoration:none;
+	color:#333333;
+	display:block;
+	padding:10px 20px;
+}
+
+navegacion ul li a:hover {
+    color: #FF7717;
+}
+
+navegacion > ul > li:hover div {
+	display:table;
+    box-shadow: 1px 1px 1px #aaa;
+}
+
+/*Submenu*/
+navegacion ul li div {
+	width:755px;
+    height: 193px;
+    font-family: Roboto,Helvetica,Tahoma,Arial,"Microsoft YaHei";
+	position: absolute;
+	background:#FFFFFF;
+	box-sizing:border-box;
+	display:none;
+    top: 28px;
+    padding-bottom: 12px;
+    white-space: nowrap;
+    box-shadow: 1px 1px 1px #aaa;
+}
+
+navegacion ul li div ul{
+	width:20%;
+	display:table-cell;
+	border-right:1px solid rgba(255,255,255,.5);
+	box-sizing:border-box;
+}
+
+navegacion ul li div ul:last-child {
+	border:none;
+}
+
+navegacion ul li div ul .titulo {
+    font-weight: 700;
+    color: #333;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+navegacion ul li div ul .titulo p {
+	color: black;
+	padding:10px 20px;
+}
+
+.titulo.azul {background:#3498db;}
+.titulo.verde{background:#27ae60;}
+.titulo.naranja {background:#e67e22;}
+.titulo.rojo {background:#c0392b; color:#000;}
+
+navegacion ul li div ul .titulo p:hover {
+	background:none;
+}
+
+navegacion ul li div ul li a {
+	color: #333333;
+}
+
+navegacion ul li div ul li a:hover {
+	color: #FF7717;
+}
+
+
+/*
+.imgenxd {
+opacity: 1.0;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+filter: alpha(opacity = 100);
+}
+                                               
+.imgenxd:hover {
+opacity: 0.7;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 70);
+filter: alpha(opacity = 70);
+transition-duration: 0.5s;
+-moz-transition-duration: 0.5s;
+-webkit-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+}
+*/
